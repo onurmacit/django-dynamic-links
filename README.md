@@ -1,6 +1,6 @@
 # Django Dynamic Links
 
-This repository demonstrates how to create dynamic links in Django, allowing users to share content and be redirected to specific pages within your application. It includes features like device-specific redirection (iOS, Android, Web), secure link verification, and customizable dynamic link generation. You can access the article about this repo here.
+This repository demonstrates how to create dynamic links in Django, allowing users to share content and be redirected to specific pages within your application. It includes features like device-specific redirection (iOS, Android, Web), secure link verification, and customizable dynamic link generation. You can access the [Article](https://medium.com/@onurmaciit/creating-dynamic-links-with-django-a-comprehensive-guide-5b1a74986ccb) about this repo here.
 
 ## Features
 - **Dynamic Link Generation**: Generate shareable links for specific content.
