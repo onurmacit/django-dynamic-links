@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+</head>
+<body>
+    <p>Redirecting...</p>
+    <script type="text/javascript">
+        var appSchemeUrl = "{{ app_scheme_url }}";
+        var fallbackUrl = "{{ fallback_url }}";
+
+        if (appSchemeUrl) {
+            window.location.href = appSchemeUrl;
+        } else if (fallbackUrl) {
+            window.location.href = fallbackUrl;
+        } else {
+            console.error("No URL provided for redirection");
+        }
+    </script>
+</body>
+</html>
